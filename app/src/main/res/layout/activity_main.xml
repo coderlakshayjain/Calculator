@@ -19,7 +19,7 @@
         android:layout_marginBottom="16dp"
         android:textAlignment="textEnd"
         android:textColor="@color/black"
-        android:textSize="32dp" />
+        android:textSize="40dp" />
 
     <TextView
         android:id="@+id/result_tv"
@@ -27,13 +27,12 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/buttons_layout"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:text="0"
         android:textAlignment="textEnd"
         android:textColor="@color/black"
-        android:textSize="64dp" />
+        android:textSize="60dp" />
 
 
     <LinearLayout
@@ -56,7 +55,7 @@
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
-                android:textSize="32dp"
+                android:textSize="30dp"
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_c"
@@ -143,7 +142,7 @@
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
-                android:textSize="32dp"
+                android:textSize="35dp"
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
                 android:id="@+id/button_multiply"
@@ -250,9 +249,9 @@
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
                 android:backgroundTint="@color/material_dynamic_primary70"
-                android:text="-"
+                android:text="−"
                 android:textColor="@color/white"
-                android:textSize="32dp"
+                android:textSize="36dp"
                 app:cornerRadius="36dp" />
 
         </LinearLayout>
